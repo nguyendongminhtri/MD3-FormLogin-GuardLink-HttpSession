@@ -1,4 +1,4 @@
-package chinh.anh.config;
+package chinh.anh.controller;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
