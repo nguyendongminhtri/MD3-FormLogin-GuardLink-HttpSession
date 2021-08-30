@@ -26,7 +26,10 @@ public class TestLinkController extends HttpServlet {
                     break;
                 } else {
                     response.sendRedirect("/login");
+                    break;
                 }
+            default:
+                response.sendRedirect("/login");
         }
     }
 //    private void showFormCreate(HttpServletRequest request, HttpServletResponse response){
