@@ -10,5 +10,5 @@ chinh/anh/controller/LoginController.java
  chinh.anh.controller.LoginController
 chinh/anh/controller/LogOutController.java
  chinh.anh.controller.LogOutController
-chinh/anh/config/TestLinkController.java
- chinh.anh.config.TestLinkController
+chinh/anh/controller/TestLinkController.java
+ chinh.anh.controller.TestLinkController

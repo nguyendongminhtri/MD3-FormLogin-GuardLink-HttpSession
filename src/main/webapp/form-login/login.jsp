@@ -35,12 +35,12 @@
                 username: {
                     required: true
                 },
-                password: "required",
+                password: {
+                    required: true
+                }
             },
             messages: {
-                username: {
-                    required: "The username is required!"
-                },
+                username: "The username is required",
                 password: "The password is required"
             }
         })
