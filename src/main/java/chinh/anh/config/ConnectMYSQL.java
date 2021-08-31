@@ -9,9 +9,10 @@ public class ConnectMYSQL {
 
     public ConnectMYSQL() {
     }
-    public static final String URL = "jdbc:mysql://localhost:3306/servlet_login";
-    public static final String USER = "root";
-    public static final String PASSWORD = "Minhtri29092014";
+//    mysql://b3b24bafb765f8:359fd5ca@us-cdbr-east-04.cleardb.com/heroku_8426d25f2a59a54?reconnect=true
+    public static final String URL = "jdbc:mysql://us-cdbr-east-04.cleardb.com:3306/servlet_login";
+    public static final String USER = "b3b24bafb765f8";
+    public static final String PASSWORD = "359fd5ca";
     public static Connection getConnection(){
         if(connection==null){
             try {
